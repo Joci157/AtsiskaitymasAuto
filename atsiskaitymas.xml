@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Atsiskaitymo testai">
+    <test name="1 uzduotis">
+        <classes>
+            <class name="tests.LoginTest"></class>
+        </classes>
+    </test>
+    <test name="2 uzduotis">
+        <classes>
+            <class name="tests.NavigationTest"></class>
+        </classes>
+    </test>
+</suite>
